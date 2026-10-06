@@ -22,6 +22,7 @@ Pour ouvrir la maquette : double-cliquer sur `index.html` (connexion internet n�
 | Point | Statut | Détail |
 |---|---|---|
 | Header : logo `logo-Rockaloud-3-removebg-preview.png`, menu 6 entrées, sélecteur FR / EN | **appliqué** | EN non fonctionnel dans la maquette. Page active soulignée en violet. Menu burger en mobile. |
+| Bandeaux d'en-tête avec photo de fond, comme sur le site actuel | **appliqué / à confirmer** | Ambiances : `concert-img-noir-blanc.jpg`. Expériences : `fete-rockaloud.jpg`. Identité musicale : `ambiance-rockaloud.png` (recadrée sur le piano et la chanteuse). Qui sommes-nous : `Q8B4621.jpg`. Contact : `concert-img-noir-blanc.jpg` assombrie et désaturée, avec le titre et l'introduction par-dessus. Le titre H1 de chaque page est posé sur le bas du bandeau. **À confirmer** : la page Contact réutilise la même photo que la page Ambiances (c'est ce que semble faire le site actuel). L'accueil garde son hero vidéo. |
 | Bloc « Choose your intensity » en bas de chaque page sauf Contact | **appliqué** | Titre, texte, bouton « Contactez-nous », email, téléphone, formulaire Nom / Prénom / Téléphone / Adresse e-mail / Message / Envoyer (non fonctionnel). |
 | Email `contact@rockaloud.fr` partout | **appliqué** | `rockaloud1@gmail.com` n'apparaît plus nulle part. |
 | Téléphone `+33 6 15 19 81 48` avec lien `tel:+33615198148` | **appliqué** | `0781395954` n'apparaît plus nulle part. |
@@ -94,7 +95,7 @@ Pour ouvrir la maquette : double-cliquer sur `index.html` (connexion internet n�
 | Point | Statut | Détail |
 |---|---|---|
 | H1 « Qui sommes-nous ? L'Expérience de la Nuit », chapeau en gras, texte de présentation | **appliqué** | Titre du livre *La véritable histoire du Bus Palladium* en italique. |
-| Image portrait `_Q8B4621.jpg` | **appliqué / à confirmer** | Le fichier de la médiathèque s'appelle `Q8B4621.jpg` (sans le tiret bas). Il a été utilisé tel quel, recadré en portrait 3:4 par CSS. |
+| Image `_Q8B4621.jpg` | **appliqué / à confirmer** | Le fichier de la médiathèque s'appelle `Q8B4621.jpg` (sans le tiret bas). Comme sur le site actuel, la photo sert de fond au bandeau d'en-tête de la page, elle n'est donc pas répétée dans le corps du texte. |
 | H2 « Notre Histoire : De la Scène au Club » + 2 cartes images (`bus-palladium.jpg`, `concert-img-noir-blanc.jpg`) | **appliqué** | |
 | H2 « Notre ADN » + H3 « Un Réseau de Talents Pluridisciplinaires » + 3 cartes | **appliqué** | |
 | H2 « Ils nous ont fait confiance » : même grille de logos que l'accueil | **appliqué** | Les 10 logos (dont Bus Palladium) sont disponibles en image, aucun nom en texte n'a été nécessaire. |
