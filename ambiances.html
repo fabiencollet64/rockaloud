@@ -40,74 +40,81 @@
       <div class="section__head">
         <h1>Nos Ambiances : L'Âme de vos Soirées</h1>
         <h2>Choisissez la Signature Scénique qui vous ressemble</h2>
+        <ul class="styles-list styles-list--compact" aria-label="Aller directement à un style">
+          <li><a href="#soft">Soft</a></li>
+          <li><a href="#pop">Pop</a></li>
+          <li><a href="#french">French</a></li>
+          <li><a href="#rock">Rock</a></li>
+          <li><a href="#soul-funk-disco">Soul-Funk-Disco</a></li>
+          <li><a href="#classic">Classic</a></li>
+          <li><a href="#alt-loud">Alt &amp; Loud</a></li>
+        </ul>
       </div>
 
-      <article class="style-block split" id="soft">
-        <div class="split__text">
+      <!-- Un bloc par style, dans l'ordre du brief, chacun avec son texte et ses vidéos -->
+
+      <article class="theme" id="soft">
+        <div class="theme__head">
           <h3>Soft</h3>
           <p>Des performances élégantes et subtiles. Une énergie feutrée qui habille le moment, sans jamais le prendre.</p>
         </div>
-        <div class="split__media">
-          <div class="video-stack">
-              <div class="video"><iframe src="https://www.youtube.com/embed/XnOeB2_qpro" title="Ambiance Soft, vidéo 1" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-              <div class="video"><iframe src="https://www.youtube.com/embed/W85wO7x4e9c" title="Ambiance Soft, vidéo 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+          <div class="theme__videos">
+            <div class="video"><iframe src="https://www.youtube.com/embed/XnOeB2_qpro" title="Ambiance Soft, vidéo 1" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            <div class="video"><iframe src="https://www.youtube.com/embed/W85wO7x4e9c" title="Ambiance Soft, vidéo 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
           </div>
+      </article>
+
+      <article class="theme theme--text" id="pop">
+        <div class="theme__head">
+          <h3>Pop</h3>
+          <p>L'énergie des hits efficaces, qu'ils soient actuels ou iconiques. Des performances légères et fédératrices, idéales pour connecter les invités et faire monter l'ambiance instantanément.</p>
         </div>
       </article>
 
-      <article class="style-block split split--reverse" id="french">
-        <div class="split__text">
+      <article class="theme" id="french">
+        <div class="theme__head">
           <h3>French</h3>
           <p>De Piaf à Aznavour.<br>De Gainsbourg à Berger.<br>De Céline à Johnny.<br>Voyez la vie en rose 🌹</p>
         </div>
-        <div class="split__media">
-          <div class="video-stack">
-              <div class="video"><iframe src="https://www.youtube.com/embed/azG9ca8zM-I" title="Ambiance French, vidéo 1" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-              <div class="video"><iframe src="https://www.youtube.com/embed/wUS4tdbfYSM" title="Ambiance French, vidéo 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+          <div class="theme__videos">
+            <div class="video"><iframe src="https://www.youtube.com/embed/azG9ca8zM-I" title="Ambiance French, vidéo 1" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            <div class="video"><iframe src="https://www.youtube.com/embed/wUS4tdbfYSM" title="Ambiance French, vidéo 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
           </div>
+      </article>
+
+      <article class="theme theme--text" id="rock">
+        <div class="theme__head">
+          <h3>Rock</h3>
+          <p>Une présence vivante et incarnée qui donne un relief immédiat à votre espace. Nos artistes déploient une énergie brute mais maîtrisée, naviguant entre les grands classiques et les sons plus actuels.</p>
         </div>
       </article>
 
-      <!-- Styles sans vidéo regroupés en cartes -->
-      <div class="style-cards grid grid--3">
-        <article class="card card--accent" id="pop">
-          <h3>Pop</h3>
-          <p>L'énergie des hits efficaces, qu'ils soient actuels ou iconiques. Des performances légères et fédératrices, idéales pour connecter les invités et faire monter l'ambiance instantanément.</p>
-        </article>
-        <article class="card card--accent" id="rock">
-          <h3>Rock</h3>
-          <p>Une présence vivante et incarnée qui donne un relief immédiat à votre espace. Nos artistes déploient une énergie brute mais maîtrisée, naviguant entre les grands classiques et les sons plus actuels.</p>
-        </article>
-        <article class="card card--accent" id="classic">
-          <h3>Classic</h3>
-          <p>Des artistes qui revisitent avec subtilité les titres intemporels qui parlent à toutes les générations. Une base à la fois chic et rassurante pour une atmosphère familière mais raffinée.</p>
-        </article>
-      </div>
-
-
-      <article class="style-block split" id="soul-funk-disco">
-        <div class="split__text">
+      <article class="theme" id="soul-funk-disco">
+        <div class="theme__head">
           <h3>Soul-Funk-Disco</h3>
           <p>Le groove, la sensualité… Vous aurez du mal à rester assis.</p>
         </div>
-        <div class="split__media">
-          <div class="video-stack">
-              <div class="video"><iframe src="https://www.youtube.com/embed/5r3Q8YeS9tQ" title="Ambiance Soul-Funk-Disco, vidéo 1" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-              <div class="video"><iframe src="https://www.youtube.com/embed/HcSu9LlsYuk" title="Ambiance Soul-Funk-Disco, vidéo 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+          <div class="theme__videos">
+            <div class="video"><iframe src="https://www.youtube.com/embed/5r3Q8YeS9tQ" title="Ambiance Soul-Funk-Disco, vidéo 1" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            <div class="video"><iframe src="https://www.youtube.com/embed/HcSu9LlsYuk" title="Ambiance Soul-Funk-Disco, vidéo 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
           </div>
+      </article>
+
+      <article class="theme theme--text" id="classic">
+        <div class="theme__head">
+          <h3>Classic</h3>
+          <p>Des artistes qui revisitent avec subtilité les titres intemporels qui parlent à toutes les générations. Une base à la fois chic et rassurante pour une atmosphère familière mais raffinée.</p>
         </div>
       </article>
 
-      <article class="style-block split split--reverse" id="alt-loud">
-        <div class="split__text">
+      <article class="theme" id="alt-loud">
+        <div class="theme__head">
           <h3>Alt &amp; Loud</h3>
           <p>Les bouchons sont optionnels. L'intensité, non.</p>
         </div>
-        <div class="split__media">
-          <div class="video-stack">
-              <div class="video"><iframe src="https://www.youtube.com/embed/fIWCS2iRZ34" title="Ambiance Alt & Loud" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+          <div class="theme__videos theme__videos--single">
+            <div class="video"><iframe src="https://www.youtube.com/embed/fIWCS2iRZ34" title="Ambiance Alt & Loud" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
           </div>
-        </div>
       </article>
     </div>
   </section>

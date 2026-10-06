@@ -454,19 +454,42 @@ em { font-style: italic; }
    Ambiances (blocs par style)
    -------------------------------------------------------------------------- */
 
-.style-block { scroll-margin-top: calc(var(--header-h) + 1rem); }
+.styles-list--compact { margin-bottom: 0; margin-top: 0.5rem; }
+.styles-list--compact a { font-size: 0.85rem; letter-spacing: 0.14em; padding: 0.5rem 0.9rem; }
 
-.style-block + .style-block { margin-top: 4rem; }
-
-.style-block h3 {
-  font-size: clamp(1.4rem, 2.6vw, 2rem);
-  letter-spacing: 0.18em;
+/* Un bloc fermé par thème : titre + texte en tête, vidéos dessous */
+.theme {
+  padding: 3rem 0;
+  border-top: 1px solid var(--line);
+  scroll-margin-top: calc(var(--header-h) + 1rem);
 }
 
-.style-cards { margin-top: 4rem; }
+.theme:last-of-type { border-bottom: 1px solid var(--line); }
 
-.style-cards .card { scroll-margin-top: calc(var(--header-h) + 1rem); }
-.style-cards h3 { font-size: 1.3rem; letter-spacing: 0.18em; }
+.theme__head { max-width: 820px; margin-bottom: 2rem; }
+
+.theme__head h3 {
+  font-size: clamp(1.4rem, 2.6vw, 2rem);
+  letter-spacing: 0.18em;
+  padding-left: 1rem;
+  border-left: 3px solid var(--accent);
+}
+
+.theme__head p:last-child { margin-bottom: 0; }
+
+.theme--text .theme__head { margin-bottom: 0; }
+
+.theme__videos {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .theme { padding: 3.5rem 0; }
+  .theme__videos { grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
+  .theme__videos--single { grid-template-columns: 1fr; max-width: 760px; }
+}
 
 /* --------------------------------------------------------------------------
    Logos clients
