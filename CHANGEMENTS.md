@@ -47,7 +47,7 @@ Pour ouvrir la maquette : double-cliquer sur `index.html` (connexion internet n�
 | Image `8_s9q3jv-1024x683-1-1.jpg` | **appliqué** | Affichée à côté de la liste des styles. |
 | Liste des styles LOUNGE, POP, FRENCH, ROCK, SOUL-FUNK-DISCO, CLASSIC, JAZZ, ALT & LOUD avec ancres vers Ambiances | **appliqué / à confirmer** | Chaque style renvoie à son ancre sur `ambiances.html`. **À confirmer** : la liste de l'accueil cite LOUNGE et JAZZ alors que la page Ambiances présente SOFT et aucun JAZZ. En attendant, LOUNGE pointe vers `#soft` et JAZZ vers `#classic`. Le client doit choisir une liste unique. |
 | Titre « Ambiances Musicales » | **appliqué** | Supprimé. |
-| Bouton « Découvrir une sélection d'artistes » | **appliqué** | Remplacé par « MEET SOME OF OUR ARTISTS » (vers `ambiances.html`). |
+| Bouton « Découvrir une sélection d'artistes » | **appliqué / à confirmer** | Le brief demandait « MEET SOME OF OUR ARTISTS » ; à la demande de Collet Marketing, le bouton est en français : « Rencontrez quelques-uns de nos artistes » (vers `ambiances.html`). Libellé exact à valider avec le client. |
 | « Nos expériences lives » / « Le live dans le bon timing. » / texte / bouton « Découvrir nos shows » / vidéos YouTube `1nhEU0BC05g` et `jf1HSmLZHQw` / image `IMG_2701.jpg` | **appliqué** | Repris tels quels. |
 | « Identité Sonore et Playlists » / sous-titre / texte / bouton « Écouter nos playlists » | **appliqué / à confirmer** | Texte conservé, espaces parasites supprimés. **À confirmer** : le client voulait-il supprimer ce texte ou seulement corriger ses espaces ? |
 | « Ce qu'on pense de nous ! » : 9 témoignages | **appliqué** | Grille de 9 cartes, textes et signatures repris à l'identique (« Dj David » corrigé en « DJ David »). |
