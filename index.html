@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rockaloud, agence de booking et de création d'événements musicaux à Paris</title>
+  <meta name="description" content="Rockaloud : lives, DJ sets, shows, sound design et playlists pour vos événements et vos lieux à Paris.">
+  <link rel="icon" href="media/cropped-favicon-rockaloud.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-accueil">
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="site-header__logo" href="index.html" aria-label="Rockaloud, accueil">
+      <img src="media/logo-Rockaloud-3-removebg-preview.png" alt="Rockaloud" width="1000" height="250">
+    </a>
+    <nav class="site-nav" id="site-nav" aria-label="Navigation principale">
+        <a href="index.html" class="is-active" aria-current="page">Accueil</a>
+        <a href="ambiances.html">Ambiances</a>
+        <a href="experiences.html">Expériences</a>
+        <a href="identite-musicale.html">Identité musicale</a>
+        <a href="qui-sommes-nous.html">Qui sommes-nous ?</a>
+        <a href="contact.html">Contact</a>
+      <div class="lang-switch" aria-label="Langue">
+        <a href="#" class="is-active" aria-current="true">FR</a><span aria-hidden="true">|</span><a href="#" title="Version anglaise (non fonctionnelle dans la maquette)">EN</a>
+      </div>
+    </nav>
+    <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Ouvrir le menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+<main>
+
+  <!-- 1. Hero vidéo plein écran -->
+  <section class="hero" aria-label="Vidéo de présentation Rockaloud">
+    <video data-desktop="media/rockaloud-accueil-4.mp4" data-mobile="media/video-rockaloud-mobile-2.mp4" autoplay muted loop playsinline preload="auto" aria-hidden="true"></video>
+    <!-- La vidéo desktop (rockaloud-accueil-4.mp4) n'était pas dans la médiathèque fournie : la vidéo mobile s'affiche en attendant -->
+    <p class="hero__note" hidden>Vidéo desktop rockaloud-accueil-4.mp4 à fournir par Cyril (vidéo mobile affichée en attendant)</p>
+  </section>
+
+  <!-- 2. Bloc « L'Art de faire vibrer vos événements » supprimé à la demande du client -->
+
+  <!-- 3. Image Fancy.jpeg à remplacer + 4. L'Expérience Rockaloud -->
+  <section class="section">
+    <div class="container">
+      <div class="split">
+        <div class="split__media">
+          <div class="media media--landscape">
+            <div class="placeholder">Photo à remplacer<br>(fournie par Cyril)<small>Remplace l'image Fancy.jpeg (image générée par IA)</small></div>
+          </div>
+        </div>
+        <div class="split__text">
+          <h1>L'Expérience Rockaloud</h1>
+          <p class="subtitle">Un pied dans le club, l'autre sur scène</p>
+          <p>Plus de 20 ans d'expérience au cœur de la musique et de la nuit parisienne. De la relance du Bus Palladium avec le Moma Group de 2010 à 2022 à la création du Sub Pigalle avec Paris Society, le projet s'est construit sur le terrain, au contact direct du public. Passer d'une ambiance feutrée à une énergie live ou club, sans jamais perdre le fil. Le grand écart est assumé.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Ils nous ont fait confiance -->
+  <section class="section section--tight logos">
+    <div class="container">
+      <div class="section__head">
+        <h2>Ils nous ont fait confiance</h2>
+      </div>
+      <div class="logos__grid">
+        <div><img src="media/logo-moma-group.png" alt="Moma Group" loading="lazy"></div>
+        <div><img src="media/676c17e3c40debbca93099bb_paris-society.png" alt="Paris Society" loading="lazy"></div>
+        <div><img src="media/logo-maison-tournier.png" alt="Maison Tournier" loading="lazy"></div>
+        <div><img src="media/embleme-Celine.jpg" alt="Celine" loading="lazy"></div>
+        <div><img src="media/logos-leparisien-white.png" alt="Le Parisien" loading="lazy"></div>
+        <div><img src="media/logo-canal-plus.png" alt="Canal+" loading="lazy"></div>
+        <div><img src="media/logo-haig-club.png" alt="Haig Club" loading="lazy"></div>
+        <div><img src="media/jack-daniels.jpg" alt="Jack Daniel's" loading="lazy"></div>
+        <div><img src="media/logo-maisonsage-blanc-sansfond-1-scaled.png" alt="La Maison Sage" loading="lazy"></div>
+        <div><img src="media/logo-bus-palladium.jpg" alt="Bus Palladium" loading="lazy" class="logo--invert"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Image + 7. Liste des styles -->
+  <section class="section">
+    <div class="container">
+      <div class="split">
+        <div class="split__media">
+          <div class="media media--landscape">
+            <img src="media/8_s9q3jv-1024x683-1-1.jpg" alt="Groupe en live sur scène" width="1024" height="683" loading="lazy">
+          </div>
+        </div>
+        <div class="split__text">
+          <ul class="styles-list" aria-label="Nos ambiances musicales">
+        <li><a href="ambiances.html#soft">LOUNGE</a></li>
+        <li><a href="ambiances.html#pop">POP</a></li>
+        <li><a href="ambiances.html#french">FRENCH</a></li>
+        <li><a href="ambiances.html#rock">ROCK</a></li>
+        <li><a href="ambiances.html#soul-funk-disco">SOUL-FUNK-DISCO</a></li>
+        <li><a href="ambiances.html#classic">CLASSIC</a></li>
+        <li><a href="ambiances.html#classic">JAZZ</a></li>
+        <li><a href="ambiances.html#alt-loud">ALT &amp; LOUD</a></li>
+          </ul>
+          <p class="text-center"><a class="btn" href="ambiances.html">Meet some of our artists</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Nos expériences lives -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="split split--reverse">
+        <div class="split__media">
+          <div class="video-stack">
+            <div class="video"><iframe src="https://www.youtube.com/embed/1nhEU0BC05g" title="Rockaloud, expérience live 1" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            <div class="video"><iframe src="https://www.youtube.com/embed/jf1HSmLZHQw" title="Rockaloud, expérience live 2" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+          </div>
+        </div>
+        <div class="split__text">
+          <h2>Nos expériences lives</h2>
+          <p class="subtitle">Le live dans le bon timing.</p>
+          <p>Un format qui s'installe, qui évolue, qui accompagne la soirée. Du set acoustique au live plus intense, chaque intervention trouve sa place. Une respiration, une montée, un basculement. Le live devient un moment clé.</p>
+          <p class="actions"><a class="btn" href="experiences.html">Découvrir nos shows</a></p>
+          <div class="media media--square" style="max-width:420px;margin-top:2.5rem">
+            <img src="media/IMG_2701.jpg" alt="Concert rock en noir et blanc" width="604" height="604" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Identité Sonore et Playlists -->
+  <section class="section">
+    <div class="container container--narrow text-center">
+      <h2>Identité Sonore et Playlists</h2>
+      <p class="subtitle">Parce qu'une ambiance ne tient pas qu'à un moment fort !</p>
+      <p>Rockaloud construit l'identité sonore de vos lieux pour qu'ils sonnent juste, tout le temps. De la direction musicale au sound design, nous façonnons l'atmosphère qui vous ressemble.</p>
+      <p class="actions"><a class="btn" href="identite-musicale.html">Écouter nos playlists</a></p>
+    </div>
+  </section>
+
+  <!-- 10. Ce qu'on pense de nous ! -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section__head">
+        <h2>Ce qu'on pense de nous !</h2>
+      </div>
+      <div class="grid grid--3">
+        <article class="testimonial">
+          <blockquote>4 collaborations, 4 succès, pourvu que ça dure ! Bravo</blockquote>
+          <cite>La Maison Sage</cite>
+        </article>
+        <article class="testimonial">
+          <blockquote>Même en dehors des événements, Rockaloud a complètement repensé notre ambiance sonore. Les playlists sont justes, élégantes, et adaptées à chaque moment de la journée.</blockquote>
+          <cite>Joseph / Joe l'indien</cite>
+        </article>
+        <article class="testimonial">
+          <blockquote>On a rien compris tellement vous avez tout compris 🤩, c'était top</blockquote>
+          <cite>Elodie Paluszezak</cite>
+        </article>
+        <article class="testimonial">
+          <blockquote>Une équipe ultra professionnelle, créative et fiable. Ils ont su s'adapter à des lieux exigeants tout en gardant une vraie personnalité artistique. Rare.</blockquote>
+          <cite>Nadia S</cite>
+        </article>
+        <article class="testimonial">
+          <blockquote>On leur a confié une soirée clé en main sans trop savoir à quoi s'attendre… et c'était au-dessus de tout. Fluide, intense, parfaitement exécuté.</blockquote>
+          <cite>Nathan A / Banque populaire</cite>
+        </article>
+        <article class="testimonial">
+          <blockquote>Encore merci à l'équipe ! (Mention spéciale au DJ David)</blockquote>
+          <cite>Fabrice S</cite>
+        </article>
+        <article class="testimonial">
+          <blockquote>Toujours un plaisir de travailler avec toi, Cyril !</blockquote>
+          <cite>Maison Lautrec</cite>
+        </article>
+        <article class="testimonial">
+          <blockquote>Une ambiance qu'on ne trouve nulle part ailleurs, encore bravo à l'équipe et à l'année prochaine !</blockquote>
+          <cite>Nicole F</cite>
+        </article>
+        <article class="testimonial">
+          <blockquote>Un anniversaire inoubliable grâce à vous, Cyril et William ! ✨🎸✨</blockquote>
+          <cite>Victoire Partouche</cite>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bloc commun « Choose your intensity » -->
+  <section class="section intensity" id="intensity">
+    <div class="container">
+      <div class="split" style="align-items:start">
+        <div class="split__text intensity__text">
+          <h2>Choose your intensity</h2>
+          <p>Particuliers ou corporate, nous pensons des formats adaptés à votre public.</p>
+          <a class="btn" href="contact.html">Contactez-nous</a>
+          <div class="contact-lines">
+            <a href="mailto:contact@rockaloud.fr"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 5h20v14H2V5zm2 2v.5l8 5 8-5V7H4zm16 3-8 5-8-5v7h16v-7z"/></svg>contact@rockaloud.fr</a>
+            <a href="tel:+33615198148"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg>+33 6 15 19 81 48</a>
+          </div>
+        </div>
+        <div class="split__media">
+          <form class="form" action="#" method="post" onsubmit="return false;" novalidate>
+            <div class="form__row">
+              <div>
+                <label for="intensity-nom">Nom</label>
+                <input id="intensity-nom" name="nom" type="text" autocomplete="family-name">
+              </div>
+              <div>
+                <label for="intensity-prenom">Prénom</label>
+                <input id="intensity-prenom" name="prenom" type="text" autocomplete="given-name">
+              </div>
+            </div>
+            <div class="form__row">
+              <div>
+                <label for="intensity-tel">Téléphone</label>
+                <input id="intensity-tel" name="telephone" type="tel" autocomplete="tel">
+              </div>
+              <div>
+                <label for="intensity-email">Adresse e-mail</label>
+                <input id="intensity-email" name="email" type="email" autocomplete="email">
+              </div>
+            </div>
+            <div>
+              <label for="intensity-message">Message</label>
+              <textarea id="intensity-message" name="message"></textarea>
+            </div>
+            <div>
+              <button type="submit" class="btn">Envoyer</button>
+              <p class="form__note">Formulaire non fonctionnel dans la maquette.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <a class="site-footer__logo" href="index.html" aria-label="Rockaloud, accueil">
+      <img src="media/logo-Rockaloud-3.jpg" alt="Rockaloud" width="1200" height="300">
+    </a>
+    <nav class="site-footer__links" aria-label="Liens légaux">
+      <a href="https://rockaloud.fr/mentions-legales/" target="_blank" rel="noopener">Mentions légales</a>
+      <a href="https://rockaloud.fr/politique-de-confidentialite/" target="_blank" rel="noopener">Politique de confidentialité</a>
+    </nav>
+    <div class="social">
+      <!-- lien Facebook à vérifier avec le client -->
+      <a href="https://www.facebook.com/rockaloudmusic/" target="_blank" rel="noopener" aria-label="Facebook Rockaloud"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 22v-8.2h2.8l.4-3.3h-3.2V8.4c0-.9.3-1.6 1.6-1.6h1.7V3.9c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.4H7.3v3.3h2.8V22h3.4z"/></svg></a>
+      <a href="https://www.instagram.com/rockaloud_talent_agency/" target="_blank" rel="noopener" aria-label="Instagram Rockaloud"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7.3A4.7 4.7 0 1 0 12 16.7 4.7 4.7 0 0 0 12 7.3zm0 7.7a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm5.9-7.9a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0zM21.1 8.3c-.1-1.5-.4-2.8-1.5-3.9S17.2 3 15.7 2.9C14.2 2.8 9.8 2.8 8.3 2.9 6.8 3 5.5 3.3 4.4 4.4S3 6.8 2.9 8.3c-.1 1.5-.1 5.9 0 7.4.1 1.5.4 2.8 1.5 3.9s2.4 1.4 3.9 1.5c1.5.1 5.9.1 7.4 0 1.5-.1 2.8-.4 3.9-1.5s1.4-2.4 1.5-3.9c.1-1.5.1-5.9 0-7.4zm-2 9c-.3.8-.9 1.4-1.7 1.7-1.2.5-4 .4-5.4.4s-4.2.1-5.4-.4c-.8-.3-1.4-.9-1.7-1.7-.5-1.2-.4-4-.4-5.4s-.1-4.2.4-5.4c.3-.8.9-1.4 1.7-1.7 1.2-.5 4-.4 5.4-.4s4.2-.1 5.4.4c.8.3 1.4.9 1.7 1.7.5 1.2.4 4 .4 5.4s.1 4.2-.4 5.4z"/></svg></a>
+    </div>
+    <p class="site-footer__credit">Site réalisé par <a href="https://colletmarketing.com/" target="_blank" rel="noopener">Collet Marketing</a></p>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
