@@ -36,7 +36,7 @@ Pour ouvrir la maquette : double-cliquer sur `index.html` (connexion internet n�
 
 | Point | Statut | Détail |
 |---|---|---|
-| Hero vidéo plein écran, autoplay muet en boucle | **appliqué / en attente de fichier** | La vidéo mobile `video-rockaloud-mobile-2.mp4` est présente. La vidéo desktop `rockaloud-accueil-4.mp4` **ne figurait pas dans la médiathèque fournie** : en desktop, la maquette affiche la vidéo mobile avec une étiquette « Vidéo desktop rockaloud-accueil-4.mp4 à fournir ». Dès que le fichier est déposé dans `media/`, il est pris en compte automatiquement et l'étiquette disparaît. |
+| Hero vidéo plein écran, autoplay muet en boucle | **appliqué** | `rockaloud-accueil-4.mp4` (1920 x 1080) en desktop, `video-rockaloud-mobile-2.mp4` (800 x 800) en mobile, choix automatique par JS selon la largeur d'écran. Si la vidéo desktop venait à manquer, le JS bascule sur la vidéo mobile et affiche une étiquette. |
 | Bloc « L'Art de faire vibrer vos événements » + paragraphes « Entre lives, DJ sets… » et « Du dîner intimiste… » | **appliqué** | Supprimé entièrement. Le hero enchaîne sur la suite. |
 | Image Fancy.jpeg (image générée par IA) | **en attente de fichier / à confirmer** | Remplacée par un emplacement gris « Photo à remplacer (fournie par Cyril) ». **À confirmer** : est-ce bien `Fancy.jpeg` qui doit être remplacée, ou `8_s9q3jv-1024x683-1-1.jpg` ? Dans la maquette, `8_s9q3jv` est conservée à côté de la liste des styles. |
 | « L'Expérience Rockaloud » / « Un pied dans le club, l'autre sur scène » / texte | **appliqué** | Texte repris tel quel (H1 de la page). |
@@ -126,17 +126,16 @@ Pour ouvrir la maquette : double-cliquer sur `index.html` (connexion internet n�
 ## Contrôle final effectué
 
 - Les 6 pages ont été ouvertes en desktop (1440 px) et mobile (390 px) : aucun défilement horizontal, menu mobile fonctionnel, page active mise en évidence.
-- Tous les chemins médias fonctionnent, sauf `rockaloud-accueil-4.mp4` (absent de la médiathèque, repli automatique sur la vidéo mobile avec étiquette).
+- Tous les chemins médias fonctionnent (vidéo desktop du hero incluse).
 - Plus aucune occurrence de `0781395954`, `rockaloud1@gmail.com` ou de tiret cadratin dans le code.
 - Un seul H1 par page.
 
 ## Récapitulatif des points en attente côté client
 
-1. Fournir la vidéo desktop du hero (`rockaloud-accueil-4.mp4`).
-2. Fournir la vraie photo qui remplace `Fancy.jpeg` (et confirmer qu'il s'agit bien de cette image, et non de `8_s9q3jv-1024x683-1-1.jpg`).
-3. Fournir la vidéo du bloc « LIVE GUESTS ».
-4. Choisir une liste unique de styles (LOUNGE / JAZZ sur l'accueil vs SOFT / pas de JAZZ sur Ambiances).
-5. Confirmer : texte « Identité Sonore et Playlists » de l'accueil, à conserver ou à supprimer ?
-6. Confirmer : nouvelle accroche Expériences en remplacement ou en ajout de l'intro actuelle ?
-7. Confirmer le lien Instagram (`rockaloud_talent_agency` ou `cyril__bodin`) et le lien Facebook.
-8. Valider les couleurs et polices retenues pour la maquette (voir remarque sur l'identité visuelle).
+1. Fournir la vraie photo qui remplace `Fancy.jpeg` (et confirmer qu'il s'agit bien de cette image, et non de `8_s9q3jv-1024x683-1-1.jpg`).
+2. Fournir la vidéo du bloc « LIVE GUESTS ».
+3. Choisir une liste unique de styles (LOUNGE / JAZZ sur l'accueil vs SOFT / pas de JAZZ sur Ambiances).
+4. Confirmer : texte « Identité Sonore et Playlists » de l'accueil, à conserver ou à supprimer ?
+5. Confirmer : nouvelle accroche Expériences en remplacement ou en ajout de l'intro actuelle ?
+6. Confirmer le lien Instagram (`rockaloud_talent_agency` ou `cyril__bodin`) et le lien Facebook.
+7. Valider les couleurs et polices retenues pour la maquette (voir remarque sur l'identité visuelle).

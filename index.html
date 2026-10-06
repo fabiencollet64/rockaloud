@@ -38,8 +38,8 @@
   <!-- 1. Hero vidéo plein écran -->
   <section class="hero" aria-label="Vidéo de présentation Rockaloud">
     <video data-desktop="media/rockaloud-accueil-4.mp4" data-mobile="media/video-rockaloud-mobile-2.mp4" autoplay muted loop playsinline preload="auto" aria-hidden="true"></video>
-    <!-- La vidéo desktop (rockaloud-accueil-4.mp4) n'était pas dans la médiathèque fournie : la vidéo mobile s'affiche en attendant -->
-    <p class="hero__note" hidden>Vidéo desktop rockaloud-accueil-4.mp4 à fournir par Cyril (vidéo mobile affichée en attendant)</p>
+    <!-- Si la vidéo desktop venait à manquer, le JS bascule sur la vidéo mobile et affiche cette note -->
+    <p class="hero__note" hidden>Vidéo desktop rockaloud-accueil-4.mp4 introuvable (vidéo mobile affichée en attendant)</p>
   </section>
 
   <!-- 2. Bloc « L'Art de faire vibrer vos événements » supprimé à la demande du client -->
