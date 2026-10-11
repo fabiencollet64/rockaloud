@@ -22,7 +22,7 @@ Pour ouvrir la maquette : double-cliquer sur `index.html` (connexion internet n�
 | Point | Statut | Détail |
 |---|---|---|
 | Header : logo `logo-Rockaloud-3-removebg-preview.png`, menu 6 entrées, sélecteur FR / EN | **appliqué** | EN non fonctionnel dans la maquette. Page active soulignée en violet. Menu burger en mobile. |
-| Bandeaux d'en-tête avec photo, titre en dessous | **appliqué / en attente de fichier** | Retour de Cyril : aucun texte sur les photos, on ne les voyait plus. Le bandeau est désormais une photo seule (320 px de haut maximum en desktop) et le titre H1 vient juste en dessous. Photos : Ambiances `concert-img-noir-blanc.jpg` ; Expériences `fete-rockaloud.jpg` ; Identité musicale : **emplacement en attente** (voir page 4) ; Qui sommes-nous `Q8B4621.jpg` en attendant une photo de Cyril ; Contact `10_10_21-Thomas.jpg` (proposition pour éviter la photo déjà utilisée sur Ambiances, Cyril peut en fournir une autre). L'accueil garde son hero vidéo. |
+| Bandeaux d'en-tête avec photo, titre en dessous | **appliqué / en attente de fichier** | Retour de Cyril : aucun texte sur les photos, on ne les voyait plus. Le bandeau est désormais une photo seule (320 px de haut maximum en desktop) et le titre H1 vient juste en dessous. Photos : Ambiances `concert-img-noir-blanc.jpg` ; Expériences `fete-rockaloud.jpg` ; Identité musicale : `identite-musicale-hotel-enceinte.jpg` (visuel hôtel / enceinte / vert foncé souhaité par Cyril) ; Qui sommes-nous `Q8B4621.jpg` en attendant une photo de Cyril ; Contact `10_10_21-Thomas.jpg` (proposition pour éviter la photo déjà utilisée sur Ambiances, Cyril peut en fournir une autre). L'accueil garde son hero vidéo. |
 | Bloc « Choose your intensity » en bas de chaque page sauf Contact | **appliqué** | Titre, texte, bouton « Contactez-nous », email, téléphone, formulaire Nom / Prénom / Téléphone / Adresse e-mail / Message / Envoyer (non fonctionnel). |
 | Email `contact@rockaloud.fr` partout | **appliqué** | `rockaloud1@gmail.com` n'apparaît plus nulle part. |
 | Téléphone `+33 6 15 19 81 48` avec lien `tel:+33615198148` | **appliqué** | `0781395954` n'apparaît plus nulle part. |
@@ -84,7 +84,7 @@ Pour ouvrir la maquette : double-cliquer sur `index.html` (connexion internet n�
 | Point | Statut | Détail |
 |---|---|---|
 | H1 « Identité musicale, Sound design » + intro | **appliqué** | Titre sous le bandeau. |
-| Bandeau d'en-tête | **en attente de fichier** | Cyril souhaite retrouver le visuel précédent du site : intérieur d'hôtel, enceinte, tons vert foncé, sans personne (image générée par IA, acceptable car sans personne). Ce fichier n'est pas dans les médias fournis : à récupérer dans la médiathèque WordPress. Emplacement gris libellé en attendant. |
+| Bandeau d'en-tête | **appliqué** | Visuel souhaité par Cyril : intérieur d'hôtel, enceinte encastrée, tons vert foncé, sans personne (`identite-musicale-hotel-enceinte.jpg`, 1215 x 1220, transmis par Collet Marketing). Image générée par IA, acceptée par le client car sans personne. Recadrée par CSS sur le mur et l'enceinte. |
 | H2 « Notre Expertise » + 2 cartes (Direction Musicale / Sound Design ; DJ's / Playlists Sur-Mesure) | **appliqué** | |
 | H2 « Écoutez la Signature Rockaloud » + texte + bouton « Demander à recevoir un extrait » | **appliqué** | Bouton vers `contact.html`. |
 | Image `rockaloud-concert-evenement.png` | **en attente de fichier** | Retour de Cyril : image générée par IA, il fournit une photo de remplacement. Emplacement gris libellé en attendant, à côté du bloc « Écoutez la Signature Rockaloud ». |
@@ -137,7 +137,7 @@ Pour ouvrir la maquette : double-cliquer sur `index.html` (connexion internet n�
 
 1. Accueil : envoyer les originaux haute définition des deux photos reçues par WhatsApp (chanteur en blouson de cuir, duo de musiciens) et confirmer leur emplacement (haut et bas de page).
 2. Expériences : fournir la vidéo du bloc « LIVE GUESTS » (annoncée).
-3. Identité musicale : récupérer le visuel hôtel / enceinte / vert foncé pour le bandeau, et fournir la photo qui remplace l'image générée par IA en bas de page.
+3. Identité musicale : fournir la photo qui remplace l'image générée par IA en bas de page.
 4. Qui sommes-nous : fournir une photo où l'on voit Cyril pour le bandeau.
 5. Contact : valider la photo proposée ou en fournir une autre.
 6. Choisir une liste unique de styles (LOUNGE / JAZZ sur l'accueil vs SOFT / pas de JAZZ sur Ambiances).
