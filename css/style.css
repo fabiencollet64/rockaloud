@@ -326,14 +326,11 @@ em { font-style: italic; }
 }
 
 /* --------------------------------------------------------------------------
-   Bandeau d'en-tête des pages intérieures : photo de fond assombrie + titre
+   Bandeau d'en-tête des pages intérieures : photo seule, le titre vient dessous
    -------------------------------------------------------------------------- */
 
 .page-hero {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   min-height: 200px;
   height: 24vw;
   max-height: 320px;
@@ -353,21 +350,23 @@ em { font-style: italic; }
 .page-hero::after {
   content: "";
   position: absolute;
-  inset: 0;
-  background: linear-gradient(to bottom, rgba(8, 8, 9, 0.55), rgba(8, 8, 9, 0.65));
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 25%;
+  background: linear-gradient(to bottom, rgba(8, 8, 9, 0), rgba(8, 8, 9, 0.6));
   pointer-events: none;
 }
 
-.page-hero__inner {
-  position: relative;
-  z-index: 1;
-  width: 100%;
-  padding: 2rem 0;
-  text-align: center;
-}
+.page-hero--placeholder { display: flex; }
+.page-hero--placeholder .placeholder { min-height: 0; border-radius: 0; }
+.page-hero--placeholder::after { display: none; }
 
-.page-hero__inner h1 { margin-bottom: 0; text-shadow: 0 2px 18px rgba(0, 0, 0, 0.7); }
-.page-hero__inner .subtitle { margin: 0.75rem 0 0; text-shadow: 0 2px 12px rgba(0, 0, 0, 0.7); }
+/* Titre de page sous le bandeau */
+.page-title { padding: 3.5rem 0 1rem; text-align: center; }
+.page-title h1 { margin-bottom: 0; }
+.page-title .subtitle { margin: 0.75rem 0 0; }
+.page-title + .section { padding-top: 2.5rem; }
 
 /* --------------------------------------------------------------------------
    Médias, emplacements, vidéos

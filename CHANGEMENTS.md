@@ -22,7 +22,7 @@ Pour ouvrir la maquette : double-cliquer sur `index.html` (connexion internet n�
 | Point | Statut | Détail |
 |---|---|---|
 | Header : logo `logo-Rockaloud-3-removebg-preview.png`, menu 6 entrées, sélecteur FR / EN | **appliqué** | EN non fonctionnel dans la maquette. Page active soulignée en violet. Menu burger en mobile. |
-| Bandeaux d'en-tête avec photo de fond, comme sur le site actuel | **appliqué / à confirmer** | Ambiances : `concert-img-noir-blanc.jpg`. Expériences : `fete-rockaloud.jpg`. Identité musicale : `8_s9q3jv-1024x683-1-1.jpg` (groupe jazz, chanteuse en robe rouge). **En attente de fichier** : le site actuel utilise la scène piano / robe rouge (`ambiance-rockaloud.png`), mais la médiathèque n'en contient que la version portrait 1125 x 2436, qui apparaît très zoomée dans un bandeau large. La version paysage est à demander à Cyril ; elle remplacera la photo provisoire. Qui sommes-nous : `Q8B4621.jpg`. Contact : `concert-img-noir-blanc.jpg`. Bandeau compact (320 px de haut maximum en desktop), photo assombrie en fond, titre H1 centré par-dessus. **À confirmer** : la page Contact réutilise la même photo que la page Ambiances (c'est ce que semble faire le site actuel). L'accueil garde son hero vidéo. |
+| Bandeaux d'en-tête avec photo, titre en dessous | **appliqué / en attente de fichier** | Retour de Cyril : aucun texte sur les photos, on ne les voyait plus. Le bandeau est désormais une photo seule (320 px de haut maximum en desktop) et le titre H1 vient juste en dessous. Photos : Ambiances `concert-img-noir-blanc.jpg` ; Expériences `fete-rockaloud.jpg` ; Identité musicale : **emplacement en attente** (voir page 4) ; Qui sommes-nous `Q8B4621.jpg` en attendant une photo de Cyril ; Contact `10_10_21-Thomas.jpg` (proposition pour éviter la photo déjà utilisée sur Ambiances, Cyril peut en fournir une autre). L'accueil garde son hero vidéo. |
 | Bloc « Choose your intensity » en bas de chaque page sauf Contact | **appliqué** | Titre, texte, bouton « Contactez-nous », email, téléphone, formulaire Nom / Prénom / Téléphone / Adresse e-mail / Message / Envoyer (non fonctionnel). |
 | Email `contact@rockaloud.fr` partout | **appliqué** | `rockaloud1@gmail.com` n'apparaît plus nulle part. |
 | Téléphone `+33 6 15 19 81 48` avec lien `tel:+33615198148` | **appliqué** | `0781395954` n'apparaît plus nulle part. |
@@ -39,12 +39,12 @@ Pour ouvrir la maquette : double-cliquer sur `index.html` (connexion internet n�
 |---|---|---|
 | Hero vidéo plein écran, autoplay muet en boucle | **appliqué** | `rockaloud-accueil-4.mp4` (1920 x 1080) en desktop, `video-rockaloud-mobile-2.mp4` (800 x 800) en mobile, choix automatique par JS selon la largeur d'écran. Si la vidéo desktop venait à manquer, le JS bascule sur la vidéo mobile et affiche une étiquette. |
 | Bloc « L'Art de faire vibrer vos événements » + paragraphes « Entre lives, DJ sets… » et « Du dîner intimiste… » | **appliqué** | Supprimé entièrement. Le hero enchaîne sur la suite. |
-| Image Fancy.jpeg (image générée par IA) | **en attente de fichier / à confirmer** | Remplacée par un emplacement gris « Photo à remplacer (fournie par Cyril) ». **À confirmer** : est-ce bien `Fancy.jpeg` qui doit être remplacée, ou `8_s9q3jv-1024x683-1-1.jpg` ? Dans la maquette, `8_s9q3jv` est conservée à côté de la liste des styles. |
+| Image Fancy.jpeg (image générée par IA) | **appliqué / en attente de fichier** | Remplacée par la photo du chanteur en blouson de cuir envoyée par Cyril (`accueil-chanteur-live.jpg`). Reçue en capture d'écran WhatsApp (736 px de large) et recadrée : **l'original en haute définition est à récupérer** avant l'intégration. |
 | « L'Expérience Rockaloud » / « Un pied dans le club, l'autre sur scène » / texte | **appliqué** | Texte repris tel quel (H1 de la page). |
 | « Ils nous ont fait confiance » : grille de logos | **appliqué** | 10 logos au même format : hauteur max 60 px desktop / 40 px mobile, `object-fit: contain`, grille centrée, monochrome clair (filtre CSS). Les marges noires des fichiers ont été rognées pour un rendu homogène. Logos identifiés dans la médiathèque : Moma Group, Paris Society, Maison Tournier, Celine, Le Parisien, Canal+, Haig Club, Jack Daniel's, La Maison Sage, Bus Palladium. |
 | Logo Bus Palladium | **appliqué** | Fichier `logo bus palladium.jpg` trouvé dans la médiathèque, renommé `logo-bus-palladium.jpg` (sans espace) et affiché en inversé (disque blanc) pour rester en monochrome clair. |
 | Mention « ET BEAUCOUP D'AUTRES… » | **appliqué** | Supprimée. |
-| Image `8_s9q3jv-1024x683-1-1.jpg` | **appliqué** | Affichée à côté de la liste des styles. |
+| Image `8_s9q3jv-1024x683-1-1.jpg` (contrebasse et musiciens, générée par IA) | **appliqué / en attente de fichier** | Retour de Cyril : image générée par IA, à remplacer. Remplacée par la photo des deux musiciens envoyée par Cyril (`accueil-soiree-duo.jpg`), capture WhatsApp recadrée : **original haute définition à récupérer**. Si l'attribution des deux photos entre le haut et le bas de la page doit être inversée, c'est un échange immédiat. |
 | Liste des styles LOUNGE, POP, FRENCH, ROCK, SOUL-FUNK-DISCO, CLASSIC, JAZZ, ALT & LOUD avec ancres vers Ambiances | **appliqué / à confirmer** | Chaque style renvoie à son ancre sur `ambiances.html`. **À confirmer** : la liste de l'accueil cite LOUNGE et JAZZ alors que la page Ambiances présente SOFT et aucun JAZZ. En attendant, LOUNGE pointe vers `#soft` et JAZZ vers `#classic`. Le client doit choisir une liste unique. |
 | Titre « Ambiances Musicales » | **appliqué** | Supprimé. |
 | Bouton « Découvrir une sélection d'artistes » | **appliqué / à confirmer** | Le brief demandait « MEET SOME OF OUR ARTISTS » ; à la demande de Collet Marketing, le bouton est en français : « Rencontrez quelques-uns de nos artistes » (vers `ambiances.html`). Libellé exact à valider avec le client. |
@@ -83,10 +83,11 @@ Pour ouvrir la maquette : double-cliquer sur `index.html` (connexion internet n�
 
 | Point | Statut | Détail |
 |---|---|---|
-| H1 « Identité musicale, Sound design » + intro | **appliqué** | |
+| H1 « Identité musicale, Sound design » + intro | **appliqué** | Titre sous le bandeau. |
+| Bandeau d'en-tête | **en attente de fichier** | Cyril souhaite retrouver le visuel précédent du site : intérieur d'hôtel, enceinte, tons vert foncé, sans personne (image générée par IA, acceptable car sans personne). Ce fichier n'est pas dans les médias fournis : à récupérer dans la médiathèque WordPress. Emplacement gris libellé en attendant. |
 | H2 « Notre Expertise » + 2 cartes (Direction Musicale / Sound Design ; DJ's / Playlists Sur-Mesure) | **appliqué** | |
 | H2 « Écoutez la Signature Rockaloud » + texte + bouton « Demander à recevoir un extrait » | **appliqué** | Bouton vers `contact.html`. |
-| Image `rockaloud-concert-evenement.png` | **appliqué** | Placée à côté du bloc « Écoutez la Signature Rockaloud ». |
+| Image `rockaloud-concert-evenement.png` | **en attente de fichier** | Retour de Cyril : image générée par IA, il fournit une photo de remplacement. Emplacement gris libellé en attendant, à côté du bloc « Écoutez la Signature Rockaloud ». |
 | H2 « Faire dialoguer le lieu et le son » + texte + bouton « Imaginez votre expérience avec nous » | **appliqué** | |
 | Bloc « Choose your intensity » + footer | **appliqué** | |
 
@@ -95,7 +96,7 @@ Pour ouvrir la maquette : double-cliquer sur `index.html` (connexion internet n�
 | Point | Statut | Détail |
 |---|---|---|
 | H1 « Qui sommes-nous ? L'Expérience de la Nuit », chapeau en gras, texte de présentation | **appliqué** | Titre du livre *La véritable histoire du Bus Palladium* en italique. |
-| Image `_Q8B4621.jpg` | **appliqué / à confirmer** | Le fichier de la médiathèque s'appelle `Q8B4621.jpg` (sans le tiret bas). Comme sur le site actuel, la photo sert de fond au bandeau d'en-tête de la page, elle n'est donc pas répétée dans le corps du texte. |
+| Image `_Q8B4621.jpg` | **appliqué / en attente de fichier** | Le fichier de la médiathèque s'appelle `Q8B4621.jpg` (sans le tiret bas). Sert de bandeau en attendant la photo de Cyril (« une autre où on me voit moi »). Une fois reçue, `Q8B4621.jpg` pourra être réutilisée là où il manque une photo, comme il le suggère. |
 | H2 « Notre Histoire : De la Scène au Club » + 2 cartes images (`bus-palladium.jpg`, `concert-img-noir-blanc.jpg`) | **appliqué** | |
 | H2 « Notre ADN » + H3 « Un Réseau de Talents Pluridisciplinaires » + 3 cartes | **appliqué** | |
 | H2 « Ils nous ont fait confiance » : même grille de logos que l'accueil | **appliqué** | Les 10 logos (dont Bus Palladium) sont disponibles en image, aucun nom en texte n'a été nécessaire. |
@@ -110,6 +111,7 @@ Pour ouvrir la maquette : double-cliquer sur `index.html` (connexion internet n�
 | H1 « Contact : Donnez une voix à votre événement », chapeau en gras, texte | **appliqué** | |
 | Deux colonnes (une seule en mobile) : « Discutons de votre projet » + coordonnées ; « Demande d'informations » + formulaire | **appliqué** | Direction : Cyril Bodin, Téléphone, Email, « Suivez l'actualité Rockaloud » (Facebook, Instagram), signature « Rockaloud, Talent Agency. Faire dialoguer le live, la performance et la nuit. » Formulaire avec le placeholder demandé. |
 | Lien Instagram | **à confirmer** | La page Contact actuelle renvoie vers `instagram.com/cyril__bodin` alors que le reste du site pointe vers `rockaloud_talent_agency`. La maquette utilise `rockaloud_talent_agency` partout. |
+| Bandeau d'en-tête | **appliqué / à confirmer** | Cyril a remarqué que la photo (`concert-img-noir-blanc.jpg`) était déjà utilisée sur Ambiances. Proposition : `10_10_21-Thomas.jpg` (danseurs, noir et blanc). Il peut en fournir une autre. |
 | Footer sans bloc « Choose your intensity » | **appliqué** | |
 
 ## Corrections de forme appliquées sur tout le site
@@ -133,11 +135,16 @@ Pour ouvrir la maquette : double-cliquer sur `index.html` (connexion internet n�
 
 ## Récapitulatif des points en attente côté client
 
-1. Fournir la vraie photo qui remplace `Fancy.jpeg` (et confirmer qu'il s'agit bien de cette image, et non de `8_s9q3jv-1024x683-1-1.jpg`).
-2. Fournir la vidéo du bloc « LIVE GUESTS ».
-3. Choisir une liste unique de styles (LOUNGE / JAZZ sur l'accueil vs SOFT / pas de JAZZ sur Ambiances).
-4. Confirmer : texte « Identité Sonore et Playlists » de l'accueil, à conserver ou à supprimer ?
-5. Confirmer : nouvelle accroche Expériences en remplacement ou en ajout de l'intro actuelle ?
-6. Confirmer le lien Instagram (`rockaloud_talent_agency` ou `cyril__bodin`) et le lien Facebook.
-7. Valider les couleurs et polices retenues pour la maquette (voir remarque sur l'identité visuelle).
-8. Fournir la version paysage de l'image piano / robe rouge utilisée en bandeau de la page Identité musicale.
+1. Accueil : envoyer les originaux haute définition des deux photos reçues par WhatsApp (chanteur en blouson de cuir, duo de musiciens) et confirmer leur emplacement (haut et bas de page).
+2. Expériences : fournir la vidéo du bloc « LIVE GUESTS » (annoncée).
+3. Identité musicale : récupérer le visuel hôtel / enceinte / vert foncé pour le bandeau, et fournir la photo qui remplace l'image générée par IA en bas de page.
+4. Qui sommes-nous : fournir une photo où l'on voit Cyril pour le bandeau.
+5. Contact : valider la photo proposée ou en fournir une autre.
+6. Choisir une liste unique de styles (LOUNGE / JAZZ sur l'accueil vs SOFT / pas de JAZZ sur Ambiances).
+7. Confirmer : texte « Identité Sonore et Playlists » de l'accueil, à conserver ou à supprimer ?
+8. Confirmer : nouvelle accroche Expériences en remplacement ou en ajout de l'intro actuelle ?
+9. Confirmer le lien Instagram (`rockaloud_talent_agency` ou `cyril__bodin`) et le lien Facebook.
+10. Valider le libellé du bouton « Rencontrez quelques-uns de nos artistes » (accueil).
+11. Valider les couleurs et polices retenues pour la maquette (voir remarque sur l'identité visuelle).
+
+Hors maquette : la redirection de contact@rockaloud.fr vers une adresse personnelle se règle dans l'hébergement de la messagerie du domaine (alias ou redirection), pas dans le site.
